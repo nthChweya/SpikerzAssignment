@@ -6,7 +6,7 @@
     #/***************************************************/
 -->
 ---
-# 💻 Test Automation Framework | API 
+# 💻 Test Automation Framework | WEB
 
 [![Cypress](https://img.shields.io/badge/Cypress-17202C?style=for-the-badge&logo=cypress&logoColor=white)](https://www.cypress.io/) 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://js.org/index.html) 

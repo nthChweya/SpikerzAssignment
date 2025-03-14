@@ -21,7 +21,7 @@ jobs:
                 node-version: 16
 
            - name: Installing Dependencies for Cypress
-             run: npm ci
+             run: npm install cypress
 
            - name: Run Cypress UI Tests
              run: npm run cy:tests:CHROME  

@@ -1,0 +1,20 @@
+{
+  "name": "cypress-framework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:tests:CHROME": "cypress run --spec cypress/e2e/SpikerzDemo/*.cy.js --headed --browser chrome",
+    "cy:tests:FIREFOX": "cypress run --spec cypress/e2e/SpikerzDemo/*.cy.js --headed --browser firefox",
+    "cy:tests:EDGE": "cypress run --spec cypress/e2e/SpikerzDemo/*.cy.js --headed --browser edge",
+    "cy:tests:ELECTRON": "cypress run --spec cypress/e2e/SpikerzDemo/*.cy.js --headed"
+  },
+  "keywords": [],
+  "author": "Chweya Charles",
+  "license": "ISC",
+  "description": "This project is a Test Automation Framework built using Cypress and Javascript",
+  "devDependencies": {
+    "cypress": "^14.2.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

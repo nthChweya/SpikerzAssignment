@@ -1,0 +1,31 @@
+name: 01_browser Chrome
+
+on:
+  workflow_dispatch:
+
+  push:
+      branches:
+          - master
+
+jobs:
+    ui_tests_chrome:
+        runs-on: ubuntu-latest
+
+        steps:
+           - name: Checkout code
+             uses: actions/checkout@v2
+
+           - name: Install Node.js
+             uses: actions/setup-node@v2
+             with:
+                node-version: 16
+
+           - name: Installing Dependencies for Cypress
+             run: npm ci
+
+           - name: Run Cypress UI Tests
+             run: npm run cy:tests:CHROME  
+
+
+
+             

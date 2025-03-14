@@ -28,7 +28,7 @@
 
 
 ## 📖 Introduction
-This repository contains a Test Automation Framework built using Cypress and Javascript for automated testing of REST APIs.
+This repository contains a Test Automation Framework built using Cypress and Javascript for automated testing of Web.
 
 ## 🛠️ Prerequisites
 

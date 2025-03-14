@@ -25,9 +25,7 @@
 - [Configuration](#configuration)
 - [Continuous Integration](#continuous-integration)
 - [Reporting](#reporting)
-- [Other Projects](#other-projects)
-- [Technical Documents](#technical-documents)
-- [Contacts](#contacts)
+
 
 ## 📖 Introduction
 This repository contains a Test Automation Framework built using Cypress and Javascript for automated testing of REST APIs.
